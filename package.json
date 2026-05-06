@@ -1,0 +1,16 @@
+{
+  "name": "team-task-manager",
+  "version": "1.0.0",
+  "description": "Full-stack Team Task Manager with role-based access control",
+  "scripts": {
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "dev": "cd server && npm run dev",
+    "install:all": "cd server && npm install && cd ../client && npm install",
+    "build:client": "cd client && npm run build",
+    "start": "cd server && npm start",
+    "seed": "cd server && node seed.js"
+  },
+  "keywords": ["task-manager", "project-management", "team"],
+  "license": "MIT"
+}
